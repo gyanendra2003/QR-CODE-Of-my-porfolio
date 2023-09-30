@@ -1,0 +1,5 @@
+import qrcode as qr
+#make funciton use to create codecs
+#save function give the QACODE in the form of PNG form
+img=qr.make("https://gyanendra2003.github.io/Portfolio_new")
+img.save("Gyanendra_portfolio.png")
